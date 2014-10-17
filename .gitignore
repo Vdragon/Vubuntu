@@ -55,9 +55,6 @@ Object_code/
 [Dd]ebug*/
 [Rr]elease*/
 
-#排除建構產物目錄
-[Bb]uild/
-	
 #排除二進位可執行檔常見副檔名
 *.exe
 *.executable

@@ -27,6 +27,12 @@ CC BY-SA 3.0 或任一更新版本
 	* 可能會用到的檔案範本
 * Git_hooks/
 	* 專案使用的 Git 版本控制系統掛勾程式(hook)
+* Target_system_root_directory_files/
+	* 建構系統時會複製到目標系統根目錄中的檔案
+* Build/
+	* 軟體建構產物存放目錄
+* Build_artifacts/
+	* 軟體建構中間產物的存放目錄
 * README.md
 	* 本說明文件  
 	  This documentation
