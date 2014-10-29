@@ -33,6 +33,8 @@ CC BY-SA 3.0 或任一更新版本
 	* 軟體建構產物存放目錄
 * Build_artifacts/
 	* 軟體建構中間產物的存放目錄
+* Resources/
+	* 軟體會使用到但是非程式的資源
 * README.md
 	* 本說明文件  
 	  This documentation
