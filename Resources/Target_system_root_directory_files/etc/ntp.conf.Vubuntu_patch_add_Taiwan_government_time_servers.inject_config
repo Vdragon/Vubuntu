@@ -1,0 +1,16 @@
+# 使用國家時間與頻率標準實驗室的校時服務
+# http://www.stdtime.gov.tw/chinese/bulletin/NTP%20promo.txt
+
+## Server From UTC(TL)。使用標準時間信號，和國家標準時間差不超過5毫秒，
+## 另外附加美國NIST及USNO的NTP Server，若您同時連上這些server，ntpd
+## 會自動選擇最佳的server校時，並防止任一Server當機造成損失
+##
+##
+
+### NTP服務中 time, tock, clock 因校時請求過多，頻寬不足，請多改用tick與watch伺服器
+server tick.stdtime.gov.tw prefer
+server watch.stdtime.gov.tw prefer
+
+server tock.stdtime.gov.tw
+server time.stdtime.gov.tw
+server clock.stdtime.gov.tw
