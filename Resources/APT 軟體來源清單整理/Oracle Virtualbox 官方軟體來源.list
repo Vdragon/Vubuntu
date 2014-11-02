@@ -1,0 +1,2 @@
+deb http://download.virtualbox.org/virtualbox/debian/ trusty contrib #Oracle Virtualbox 官方軟體來源
+# deb-src http://download.virtualbox.org/virtualbox/debian/ trusty contrib #Oracle Virtualbox 官方軟體來源

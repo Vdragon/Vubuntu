@@ -1,0 +1,20 @@
+# Stable Bumblebee releases : “Bumblebee Project” team
+# https://launchpad.net/~bumblebee/+archive/ubuntu/stable
+# Bumblebee Stable PPA
+# 
+# Installation instructions: https://wiki.ubuntu.com/Bumblebee
+# 
+# To report issues, please read http://wiki.Bumblebee-Project.org/Reporting-Issues
+# 
+# You may use any nvidia driver flavor, like -updates, -experimental or -nnn ones.
+# 
+# After installation, reboot to let changes apply.
+# 
+# To see if it works, run during around 30s: glxspheres
+# Then, run it with optirun, and compare: optirun glxspheres
+# 
+# If you want to use primus, you need to install it and set Bridge=primus in bumblebee.conf or use optirun -b primus. You also need to install primus-libs-ia32 if you want to run 32-bit apps.
+# 
+# Be aware that as Bumblebee is using low-level hardware informations, it is impossible to run it in a VM.
+deb http://ppa.launchpad.net/bumblebee/stable/ubuntu trusty main #Bumblebee 官方軟體來源
+# deb-src http://ppa.launchpad.net/bumblebee/stable/ubuntu raring main #Bumblebee 官方軟體來源

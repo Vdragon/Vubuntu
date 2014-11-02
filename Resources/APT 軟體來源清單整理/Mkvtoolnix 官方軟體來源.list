@@ -1,0 +1,2 @@
+deb http://www.bunkus.org/ubuntu/trusty/ ./ #mkvtoolnix 官方軟體來源
+# deb-src http://www.bunkus.org/ubuntu/trusty/ ./ #mkvtoolnix 官方軟體來源

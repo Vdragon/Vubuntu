@@ -1,0 +1,5 @@
+# SuperTuxKart 0.8.x and 0.7.x : “STK-team” team
+# https://launchpad.net/~stk/+archive/ubuntu/dev
+# Latest SuperTuxKart stable releases
+deb http://ppa.launchpad.net/stk/dev/ubuntu/ saucy main #SuperTuxKart 官方 PPA 軟體來源（20140818 檢查最新只有提供 saucy）
+# deb-src http://ppa.launchpad.net/stk/dev/ubuntu/ saucy main #SuperTuxKart 官方 PPA 軟體來源（20140818 檢查最新只有提供 saucy）

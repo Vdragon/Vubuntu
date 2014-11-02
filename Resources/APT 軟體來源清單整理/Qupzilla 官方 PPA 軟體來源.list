@@ -1,0 +1,3 @@
+deb http://ppa.launchpad.net/nowrep/qupzilla/ubuntu/ trusty main #Qupzilla 官方 PPA 軟體來源
+# deb-src http://ppa.launchpad.net/nowrep/qupzilla/ubuntu/ trusty main #Qupzilla 官方 PPA 軟體來源
+
