@@ -9,5 +9,9 @@
 ### 官方網站
 [https://www.google.com/get/noto/cjk.html](https://www.google.com/get/noto/cjk.html)
 
+## Code::Blocks 中文軟體介面翻譯資料
+### 翻譯資料來源
+[https://translations.launchpad.net/codeblocks](https://translations.launchpad.net/codeblocks)
+
 ### 注意事項
 要下載的是 Super OTC 的版本
