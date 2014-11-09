@@ -1,0 +1,3 @@
+# Vubuntu patch - 取消 Unity 桌面環境的隱藏式捲動軸，修正觸控螢幕難以點選的問題（有機會被其他預設值 override 掉所以要自己設） 
+[com.canonical.desktop.interface]
+scrollbar-mode = 'normal'

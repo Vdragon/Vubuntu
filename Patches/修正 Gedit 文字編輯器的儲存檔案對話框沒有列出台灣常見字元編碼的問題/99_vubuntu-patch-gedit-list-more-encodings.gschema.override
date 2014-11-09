@@ -1,0 +1,4 @@
+# Vubuntu patch - 將台灣常見字元編碼列於 Gedit 選單中
+# 可使用的字元編碼代碼可參考 https://git.gnome.org/browse/gedit/tree/gedit/gedit-encodings.c?id=77c4fe77794b195630825a01cd5e81c38b4413a6
+[org.gnome.gedit.preferences.encodings]
+shown-in-menu = ['UTF-8', 'BIG5', 'BIG5-HKSCS', 'GB18030', 'GB2312', 'GBK', 'GB2312', 'GBK', 'SHIFT_JIS', 'ISO-8859-15', 'UTF-16']
