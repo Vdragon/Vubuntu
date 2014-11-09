@@ -24,6 +24,8 @@ Vubuntu 為Ｖ字龍根據自身需求改造的 GNU/Linux 作業系統，因為�
 ## （尚未填寫內容）如何建構專案<br />How to build the project
 
 ## 檔案與目錄說明<br />File and directory description
+* Patches/
+	* Vubuntu 所做的修改
 * 3rd_party_software/
 	* This directory stores 3rd party software used by this project
 * Tools/
