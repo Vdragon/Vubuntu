@@ -1,0 +1,3 @@
+#Vubuntu patch: 客製 EXTRA_GROUPS 自訂有管理權限的使用者應要加入哪些群組
+#EXTRA_GROUPS="dialout cdrom floppy audio video plugdev users"
+EXTRA_GROUPS="adm dialout video lpadmin dip plugdev sambashare fuse users"

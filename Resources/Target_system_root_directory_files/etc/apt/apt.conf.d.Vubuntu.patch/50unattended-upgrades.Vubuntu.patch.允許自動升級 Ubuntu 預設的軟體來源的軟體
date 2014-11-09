@@ -9,22 +9,4 @@ Unattended-Upgrade::Origins-Pattern {
 	"origin=Canonical, archive=${distro_codename}";
 	// Canonical Application Review Board PPA(extras.ubuntu.com)
 	"origin=LP-PPA-app-review-board, archive=${distro_codename}";
-	
-	// Canonical PPA service
-	"site=ppa.launchpad.net";	
-	
-	// MATE software source
-	"site=repo.mate-desktop.org";
-	
-	// HIME input method software source
-	"site=debian.luna.com.tw";
-	
-	// Multisystem software source
-	"site=liveusb.info";
-	
-	// Oracle VirtualBox software source
-	"site=download.virtualbox.org";
-	
-	// Google products
-	"site=dl.google.com";
 };

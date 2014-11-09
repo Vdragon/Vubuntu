@@ -1,0 +1,4 @@
+# Vubuntu patch: fix "Warning: Setting GRUB_TIMEOUT to a non-zero value when GRUB_HIDDEN_TIMEOUT is set is no longer supported." warning message.
+# GRUB_HIDDEN_TIMEOUT=0
+# GRUB_HIDDEN_TIMEOUT_QUIET=true
+GRUB_TIMEOUT_STYLE=menu

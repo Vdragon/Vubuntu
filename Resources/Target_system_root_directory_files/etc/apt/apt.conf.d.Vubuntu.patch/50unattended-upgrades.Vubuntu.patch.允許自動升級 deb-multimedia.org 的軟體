@@ -1,0 +1,6 @@
+Unattended-Upgrade::Origins-Pattern {
+	// deb-multimedia.org
+	"site=www.deb-multimedia.org";
+	"site=ftp.deb-multimedia.org";
+	
+};

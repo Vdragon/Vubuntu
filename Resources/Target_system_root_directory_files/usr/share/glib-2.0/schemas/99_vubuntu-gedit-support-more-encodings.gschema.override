@@ -1,0 +1,2 @@
+[org.gnome.gedit.preferences.encodings]
+auto-detected = ['BIG5', 'BIG5-HKSCS', 'GB18030', 'GB2312', 'GBK', 'GB2312', 'GBK', 'SHIFT_JIS', 'UTF-8', 'CURRENT', 'ISO-8859-15', 'UTF-16']

@@ -1,0 +1,2 @@
+# Vubuntu_patch : 掛載 EFI 系統磁碟分割區（如果系統是的話）
+# UUID=XXXX-XXXX /boot/efi vfat discard 0 2

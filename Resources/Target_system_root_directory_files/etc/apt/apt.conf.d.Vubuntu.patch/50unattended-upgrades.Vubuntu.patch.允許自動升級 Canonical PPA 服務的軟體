@@ -1,0 +1,5 @@
+Unattended-Upgrade::Origins-Pattern {
+	// Canonical PPA service
+	"site=ppa.launchpad.net";	
+
+};

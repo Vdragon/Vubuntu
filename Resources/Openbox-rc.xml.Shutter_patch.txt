@@ -1,0 +1,17 @@
+
+    <!-- Shutter 按鍵組合設定 -->
+    <keybind key="Print">
+      <action name="Execute">
+        <command>shutter --full</command>
+      </action>
+    </keybind>
+    <keybind key="W-Print">
+      <action name="Execute">
+        <command>shutter --active</command>
+      </action>
+    </keybind>
+    <keybind key="C-Print">
+      <action name="Execute">
+        <command>shutter --select</command>
+      </action>
+    </keybind>

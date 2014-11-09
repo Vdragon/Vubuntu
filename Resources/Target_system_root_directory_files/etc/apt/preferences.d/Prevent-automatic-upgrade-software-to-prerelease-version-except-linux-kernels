@@ -1,0 +1,9 @@
+Explanation: 1. 不升級所有未釋出版本 Ubuntu 軟體來源的軟體包
+Package: *
+Pin: release n=vivid*
+Pin-Priority: 1
+
+Explanation: 2. 複寫 1. ，升級 Linux 作業系統核心的 image 跟 headers 軟體包至未釋出版本 Ubuntu 軟體來源的版本
+Package: linux-lowlatency linux-image-* linux-headers-*
+Pin: release n=vivid*
+Pin-Priority: 990

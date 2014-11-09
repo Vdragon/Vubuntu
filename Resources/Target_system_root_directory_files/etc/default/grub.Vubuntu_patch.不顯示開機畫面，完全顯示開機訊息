@@ -1,0 +1,3 @@
+# Vubuntu patch: 不顯示開機畫面，完全顯示開機訊息
+# GRUB_CMDLINE_LINUX_DEFAULT="splash quiet"
+GRUB_CMDLINE_LINUX_DEFAULT=""

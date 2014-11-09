@@ -1,0 +1,4 @@
+Unattended-Upgrade::Origins-Pattern {
+	// Google products
+	"site=dl.google.com";
+};

@@ -1,0 +1,3 @@
+# Vubuntu patch: 選單倒數計時改為 5 秒
+# GRUB_TIMEOUT=10
+GRUB_TIMEOUT=5
