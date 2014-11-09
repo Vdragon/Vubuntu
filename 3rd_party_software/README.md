@@ -3,6 +3,8 @@
 放置第三方軟體的目錄
 
 ## 本目錄下的項目說明<br />Description of the items under this directory
+* APT_Software_Sources_zh_TW/
+	* 正體中文的 APT 軟體來源
 * README.md
 	* 本說明檔案
 * 

@@ -1,0 +1,3 @@
+[submodule "3rd_party_software/APT_Software_Sources_zh_TW"]
+	path = 3rd_party_software/APT_Software_Sources_zh_TW
+	url = https://github.com/Vdragon/APT_Software_Sources_zh_TW
