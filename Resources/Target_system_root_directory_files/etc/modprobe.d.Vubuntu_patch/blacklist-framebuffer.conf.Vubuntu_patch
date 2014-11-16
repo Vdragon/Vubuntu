@@ -1,3 +1,0 @@
-# Vubuntu patch: add uvesafb blacklisting as an option and blacklist vesafb
-# blacklist uvesafb
-blacklist vesafb
