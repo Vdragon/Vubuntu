@@ -1,0 +1,4 @@
+# Vubuntu patch: 提前修正 Launchpad Bug #1258597，修正開機選單不出現的問題
+# GRUB_HIDDEN_TIMEOUT=0
+# GRUB_HIDDEN_TIMEOUT_QUIET=true
+GRUB_TIMEOUT_STYLE=menu
