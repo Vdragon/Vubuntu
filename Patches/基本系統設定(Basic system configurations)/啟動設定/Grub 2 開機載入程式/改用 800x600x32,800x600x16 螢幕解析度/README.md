@@ -2,4 +2,4 @@
 ## 設定理由
 因目前這邊有機器用 1024x768 解析度會發生螢幕顯示超出支援範圍的問題所以退一階設定
 ## 修正方式
-以 root 身份編輯 `/etc/default/grub` 設定檔，參考 [grub.Vubuntu_patch.改用 800x600x32,800x600x16 螢幕解析度](grub.Vubuntu_patch.改用 800x600x32,800x600x16 螢幕解析度)將 GRUB_GFXMODE 設定值取消註解並設定為 800x600x32,800x600x16
+以 root 身份將 [Vubuntu_patch - 改用 800x600x32,800x600x16 螢幕解析度.cfg](Vubuntu_patch - 改用 800x600x32,800x600x16 螢幕解析度.cfg) 設定檔安裝到 `/etc/default/grub.d` 目錄下（如果目錄不存在的話建立之）
