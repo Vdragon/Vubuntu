@@ -1,6 +1,6 @@
 # 3rd_party_software/
 ## 這是什麼？<br />What is this?
-放置第三方軟體的目錄
+本目錄包含了所有未經「軟體包管理系統(software package management system)」管理版本而安裝於系統中的軟體，請定期自行注意軟體是否有出新版本，以確保系統的穩定與安全。
 
 ## 本目錄下的項目說明<br />Description of the items under this directory
 * APT_Software_Sources_zh_TW/
