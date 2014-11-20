@@ -10,3 +10,6 @@
 [submodule "3rd_party_software/git-cola"]
 	path = 3rd_party_software/git-cola
 	url = https://github.com/git-cola/git-cola.git
+[submodule "3rd_party_software/moedict-desktop"]
+	path = 3rd_party_software/moedict-desktop
+	url = https://github.com/racklin/moedict-desktop.git
