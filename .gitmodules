@@ -1,3 +1,9 @@
 [submodule "3rd_party_software/APT_Software_Sources_zh_TW"]
 	path = 3rd_party_software/APT_Software_Sources_zh_TW
 	url = https://github.com/Vdragon/APT_Software_Sources_zh_TW
+[submodule "3rd_party_software/apt-get_only-update"]
+	path = 3rd_party_software/apt-get_only-update
+	url = https://github.com/Vdragon/apt-get_only-update.git
+[submodule "3rd_party_software/apt-get_reinstall-all"]
+	path = 3rd_party_software/apt-get_reinstall-all
+	url = https://github.com/Vdragon/apt-get_reinstall-all.git
