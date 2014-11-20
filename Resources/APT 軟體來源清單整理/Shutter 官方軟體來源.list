@@ -1,7 +1,0 @@
-# PPA for Shutter Team : “Shutter Team” team
-# https://launchpad.net/~shutter/+archive/ubuntu/ppa
-# This is the official Shutter repository - it is recommended to use this to keep your Shutter easily updated.
-# 
-# For instuctions on how to add the repository, see (http://shutter-project.org/faq-help/ppa-installation-guide).
-deb http://ppa.launchpad.net/shutter/ppa/ubuntu/ trusty main # Shutter 官方軟體來源
-# deb-src http://ppa.launchpad.net/shutter/ppa/ubuntu/ trusty main # Shutter 官方軟體來源

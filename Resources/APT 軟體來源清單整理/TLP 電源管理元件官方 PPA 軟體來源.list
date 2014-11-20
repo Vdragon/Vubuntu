@@ -1,6 +1,0 @@
-# TLP : linrunner
-# https://launchpad.net/~linrunner/+archive/ubuntu/tlp
-# TLP is a power management tool for Linux. It brings you the benefits of advanced power management without the need to understand every technical detail.
-# 
-# Project homepage: http://linrunner.de/tlp
-deb http://ppa.launchpad.net/linrunner/tlp/ubuntu trusty main #TLP 電源管理元件官方 PPA 軟體來源

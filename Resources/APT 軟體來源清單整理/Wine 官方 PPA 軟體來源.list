@@ -1,6 +1,0 @@
-# Wine Team PPA : “Ubuntu Wine Team” team
-# https://launchpad.net/~ubuntu-wine/+archive/ubuntu/ppa
-# Welcome to the Wine Team PPA. Here you can get the latest available Wine betas for every supported version of Ubuntu. This PPA is managed by Scott Ritchie and Maarten Lankhorst.
-deb http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu/ trusty main #Wine 官方 PPA 軟體來源
-# deb-src http://ppa.launchpad.net/ubuntu-wine/ppa/ubuntu/ trusty main #Wine 官方 PPA 軟體來源
-

@@ -1,6 +1,0 @@
-# “Kubuntu Package Archives” team - Kubuntu Backports
-# https://launchpad.net/~kubuntu-ppa/+archive/ubuntu/backports
-# Backports of new versions of KDE Platform, Plasma and Applcations as well as major KDE apps for Kubuntu.
-
-deb http://ppa.launchpad.net/kubuntu-ppa/backports/ubuntu/ trusty main #Kubuntu 官方釋出版本軟體來源
-# deb-src http://ppa.launchpad.net/kubuntu-ppa/backports/ubuntu/ trusty main #Kubuntu 官方釋出版本軟體來源
