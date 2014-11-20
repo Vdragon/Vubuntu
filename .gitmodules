@@ -7,3 +7,6 @@
 [submodule "3rd_party_software/apt-get_reinstall-all"]
 	path = 3rd_party_software/apt-get_reinstall-all
 	url = https://github.com/Vdragon/apt-get_reinstall-all.git
+[submodule "3rd_party_software/git-cola"]
+	path = 3rd_party_software/git-cola
+	url = https://github.com/git-cola/git-cola.git
