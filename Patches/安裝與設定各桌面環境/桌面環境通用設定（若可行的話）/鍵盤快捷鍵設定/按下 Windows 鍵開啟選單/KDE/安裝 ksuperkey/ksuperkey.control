@@ -1,0 +1,10 @@
+Source: ksuperkey
+Maintainer: Ｖ字龍(Vdragon) <Vdragon.Taiwan@gmail.com>
+Build-Depends: gcc, make, libx11-dev, libxtst-dev, pkg-config
+
+Package: ksuperkey
+Version: 20141123234765-1
+Maintainer: Ｖ字龍(Vdragon) <Vdragon.Taiwan@gmail.com>
+Architecture: all
+Description: ksuperkey software
+ https://github.com/hanschen/ksuperkey
