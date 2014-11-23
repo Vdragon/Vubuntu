@@ -13,3 +13,6 @@
 [submodule "3rd_party_software/moedict-desktop"]
 	path = 3rd_party_software/moedict-desktop
 	url = https://github.com/racklin/moedict-desktop.git
+[submodule "3rd_party_software/ksuperkey"]
+	path = 3rd_party_software/ksuperkey
+	url = https://github.com/hanschen/ksuperkey.git
