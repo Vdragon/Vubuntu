@@ -24,6 +24,8 @@ Patches/安裝與設定各桌面環境/桌面環境通用設定（若可行的�
 ### 3. 安裝 ksuperkey
 於 `3rd_party_software/ksuperkey/` 目錄內於終端機以 root 身份執行 make PREFIX=/usr/local install
 
+### 4. 登出再登入應可開始運作
+
 ### 如何移除 ksuperkey
 於 `3rd_party_software/ksuperkey/` 目錄內於終端機以 root 身份執行 make PREFIX=/usr/local uninstall
 
