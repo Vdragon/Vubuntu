@@ -16,3 +16,6 @@
 [submodule "3rd_party_software/ksuperkey"]
 	path = 3rd_party_software/ksuperkey
 	url = https://github.com/hanschen/ksuperkey.git
+[submodule "3rd_party_software/Swap_space_automounter"]
+	path = 3rd_party_software/Swap_space_automounter
+	url = https://github.com/Vdragon/Swap_space_automounter.git
