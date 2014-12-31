@@ -1,0 +1,16 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+# Required keys
+Type=Application
+Name=批踢踢實業坊
+
+# Optional keys
+## Version of the Desktop Entry Specification that the desktop entry conforms with.  ("Desktop Entry Specification" revision 1.1 requires this key to be "1.0" with unknown reason)
+Version=1.0
+
+GenericName=電子佈告欄系統
+
+## Path to an executable file on disk used to determine if the program is actually installed.
+TryExec=konsole
+
+Exec=konsole --profile "PTT 瀏覽專用" --separate

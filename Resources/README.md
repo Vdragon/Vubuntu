@@ -4,6 +4,7 @@
 置放跟軟體相關，但非程式的資源
 
 ## 檔案與目錄說明<br />File and directory description
+* [freedesktop desktop entry/](freedesktop desktop entry/)
 * [Pictures/](Pictures/)
 	* 圖片資源
 * Target_system_root_directory_files/
