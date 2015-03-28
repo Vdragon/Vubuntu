@@ -94,18 +94,18 @@
 * 啟用 USB 2.0 (EHCI) 控制器
 
 ## 安裝作業系統<br />Operating System Installation
-* [x] 作業系統安裝媒體以 Minimal CD 為優先，所有軟體皆直接自網路上下載
+* [ ] 作業系統安裝媒體以 Minimal CD 為優先，所有軟體皆直接自網路上下載
 	* Ubuntu 軟體來源鏡像站(mirror site)
 		* <http://free.nchc.org.tw/ubuntu>
 
 ## 基本系統設定<br />Basic system configurations
-### [x] 自訂主機名稱<br />Customize hostname
+* [ ] 自訂主機名稱<br />Customize hostname
+	* 設定說明
+		* 主機名稱為該系統在網路（比方說網路上的芳鄰(Samba)服務）上的識別用名稱，在格式上有一些限制
+	* 設定方式
+		1. 編輯 /etc/hostname 跟 /etc/hosts 檔案，將主機名稱替換為你要換的。
+		2. 重新啟動系統。
+	* 設定值
+		* Unnamed-PC
+			* 表示「尚未命名的個人電腦」
 
-喜歡的內容(Content you like)：<br/>
-<label><input type="checkbox" value="technology" />科技(technology)
-</label>
-<label><input type="checkbox" value="nature" />大自然(nature)
-</label>
-<label>
-  <input type="checkbox" value="life" />生活(life)
-</label>
