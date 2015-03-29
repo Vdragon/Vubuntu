@@ -281,7 +281,9 @@
 					* <Super>+Right
 * 基於 Openbox 的桌面環境
 	* https://github.com/Vdragon/Aero_Snap
-	* 用 obkey 來設定
+	* 安裝 obkey Openbox 視窗管理員鍵盤快速鍵編輯軟體
+		* <http://code.google.com/p/obkey/>
+		* <http://github.com/nsf/obkey>
 
 ##### 按下 Windows + F(ullscreen) 鍵將視窗全螢幕化（目前僅適用 KDE）
 ##### 按下 Windows 鍵開啟選單
@@ -472,4 +474,96 @@
 			* [ ] 短日期
 			* [ ] 顯示秒
 			* [ ] 取消 UTC 時間顯示
-			
+
+### XFCE(Xubuntu) 桌面環境
+1. 安裝軟體
+	* [ ] 安裝 xubuntu-desktop 軟體包
+	* [ ] 移除 default settings 軟體包
+	* [ ] 安裝 xfce4-goodies 軟體包
+2. 設定
+
+### LXDE(Lubuntu) 桌面環境
+1. 安裝軟體
+	* [ ] lxde
+
+### GNOME 3(Ubuntu GNOME) 桌面環境
+1. 安裝軟體來源
+	* 3rd_party_software/APT_Software_Sources_zh_TW/gnome-3-official.list
+2. 更新軟體來源快取資料
+3. 安裝軟體
+	* [ ] ubuntu-gnome-desktop
+	* [ ] 移除 default settings 軟體包
+	* [ ] gnome-boxes
+	* [ ] gnome-documents
+	* [ ] gnome-shell-timer
+	* [ ] gnome-shell-extensions
+	* 預覽圖產生器
+		* [ ] gnome-.*-thumbnailer
+		* [ ] ooo-thumbnailer
+
+### Openbox 桌面環境
+1. 安裝軟體
+	* [ ] openbox
+	* 支援右鍵 Debian 選單
+		* [ ] menu
+		* [ ] menu-l10n
+
+### MATE(GNOME 2) 桌面環境
+1. 安裝軟體來源
+	* [ ] <http://wiki.mate-desktop.org/download>
+2. 更新軟體來源快取資料
+3. 安裝軟體
+	* [ ] mate-core
+	* [ ] mate-desktop-environment
+
+### Cinnamon 桌面環境
+1. 安裝軟體來源
+	* [ ] [Cinnamon stable : Gwendal LE BIHAN](https://launchpad.net/~gwendal-lebihan-dev/+archive/cinnamon-stable)
+2. 更新軟體來源快取資料
+3. 安裝軟體
+	* [ ] cinnamon
+	* [ ] ^nemo-*
+
+### Unity 桌面環境
+* 安裝軟體
+	* [ ] ubuntu-desktop
+* [ ] 重設軟體圖示主題
+* [ ] 將所有軟體圖示皆列入 Unity 桌面環境面板(panel)的白名單（13.XX 之後已經無效）
+	* 用 dconf 編輯器編輯 com.canonical.Unity.Panel.systray-whitelist 改為 ‘all’
+* [ ] 取消 Unity 桌面環境的隱藏式捲動軸，修正觸控螢幕難以點選的問題（有機會被其他預設值 override 掉所以要自己設）
+	* Patches/取消 Unity 桌面環境的隱藏式捲動軸，修正觸控螢幕難以點選的問題（有機會被其他預設值 override 掉所以要自己設）/
+
+### Enlightenment 桌面環境
+* 安裝軟體
+	* [ ] e17
+
+## 安裝及設定各種軟體管理前端程式
+* [ ] Muon
+* [ ] Muon Discover
+* Synaptic
+	1. [ ] 安裝軟體
+	2. [ ] 新增「沒有軟體來源的軟體包」過濾器
+* [ ] Ubuntu 軟體中心
+* [ ] Aptitude
+* [ ] Gdebi(GNOME/KDE)
+* [ ] ppa-purge
+* y-ppa-manager
+	1. 安裝軟體來源
+		* [ ] APT_Software_Sources_zh_TW/Y-PPA-Manager-official-release.list
+	2. 安裝軟體
+		* [ ] y-ppa-manager
+
+## 安裝多媒體編解碼器
+* [ ] ^.*ubuntu-restricted-extras$
+* [ ] ^gstreamer.*-plugins-good$
+* [ ] ^gstreamer.*-plugins-ugly$
+* [ ] ^gstreamer.*-plugins-bad$
+* [ ] w32codecs
+	* Patches/安裝多媒體編解碼器/w32codecs/
+
+## 安裝 DVD CSS 保護機制支援
+1. [ ] 安裝軟體來源
+2. [ ] 更新軟體來源快取資料
+3. [ ] 安裝軟體包
+	* libdvdcss2
+
