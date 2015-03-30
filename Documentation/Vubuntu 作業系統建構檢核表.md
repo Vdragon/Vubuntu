@@ -117,6 +117,75 @@
 		* `# dpkg-reconfigure keyboard-configuration`
 	* 設定值
 		* 英語（美國地區）鍵盤
+* 根目錄檔案系統相關設定<br />Root file system related settings
+	* [ ] 設定根目錄檔案系統標籤為「V + 原散佈版本名稱」
+		* 設定方法
+			* tune2fs
+	* 檔案系統掛載選項
+		* 說明
+			* 檔案系統掛載選項決定檔案系統的某些屬性或是要啟用／停用的功能，設定檔位於 /etc/fstab 與 /etc/fstab.d
+		* [ ] noatime  
+		  不更新檔案的存取時間(access time)
+			* 理由
+				* 減少磁碟寫入量，目前無已知重要軟體會依賴該資料
+		* [ ] nodiratime
+		  不更新目錄的存取時間
+			* 理由
+				* 減少磁碟寫入量，目前無已知重要軟體會依賴該資料
+		* [ ] usrquota  
+		啟用使用者磁碟使用配額管理功能
+			* 理由
+				* 增加功能，無已知啟用問題
+		* [ ] grpquota
+		  啟用群組磁碟使用配額管理功能
+			* 理由
+				* 增加功能，無已知啟用問題
+		* [ ] user_xattr
+		  支援檔案擴充屬性設定
+			* 理由
+				* 增加功能，無已知啟用問題
+		* [ ] 檔案系統保留空間設為 0%
+			* 理由
+				* 在大容量磁碟上會浪費空間，應由使用者自行在安裝後設定適當值
+* 主記憶體分頁置換空間設定  
+  Primary memory page swap space settings
+	* [ ] 於 fstab 新增置換空間的項目範本
+		* Patches/基本系統設定(Basic system configurations)/檔案系統相關設定(File system related settings)/新增虛擬記憶體置換空間項目/
+	* [ ] 將 swappiness 降低為 10
+	* [ ] 安裝 Swap_space_automounter
+		* 3rd_party_software/Swap_space_automounter/
+* 語言設定  
+  Locale settings
+	* [ ] 設定預設系統語系為正體中文(LANG=zh_TW.UTF-8)
+		* 設定方式
+			* 編輯 /etc/default/locale 檔案
+		* 設定值
+			* LANG=zh_TW.UTF-8
+	* [ ] 設定介面語言優先順序為正體中文（台灣→香港）→其他中文→英文
+		* 設定方式
+			* 編輯 /etc/default/locale 檔案
+		* 設定值
+			* LANGUAGE=zh_TW:zh_HK:zh:en
+	* [ ] 定期執行 check-language-support 安裝中文語言軟體包
+		* `# apt-get install $(check-language-support --language=zh)`
+	* [ ] 安裝 manpages-zh中文 manpage 軟體包
+* TTY 終端機中文支援
+	1. 安裝軟體
+		* [ ] fbterm
+		* [ ] fbterm-ucimf
+		* [ ] ucimf-chewing
+		* [ ] fbset
+			* 調整 framebuffer 裝置解析度等設定
+	2. 設定
+		1. [ ] `# setcap 'cap_sys_tty_config+ep' $(which fbterm)`
+			* 目前不明原因需要重複執行此命令才會生效
+		2. [ ] `# setcap 'cap_sys_admin+ep' $(which fbterm)`
+		3. [ ] 編輯 /etc/adduser.conf 將 video 群組加入 EXTRA_GROUPS 變數中（如果沒有的話）
+		4. [ ] 編輯 ~/.fbtermrc 將字型改為 Droid Sans Fallback 16
+		5. [ ] 編輯 ~/.fbtermrc 將輸入法程式設定為 fbterm-ucimf
+		6. [ ] 將 ~/.fbtermrc 同步到 /root 跟 /etc/skel
+		7. [ ] Patches/語言設定(Locale settings)/TTY 終端機中文支援/修正「安裝了 ucimf-chewing 但是新酷音輸入法還是叫不出來」的問題/
+		8. [ ] Patches/語言設定(Locale settings)/TTY 終端機中文支援/將 TTY1 的 getty 改為 fbterm/
 * 軟體管理系統設定
   Software Management System Settings
 	* [ ] 使用 <http://free.nchc.org.tw/ubuntu> Ubuntu 軟體來源鏡像站（速度快，相對預設的 tw.archive.ubuntu.com 穩定）
@@ -567,3 +636,29 @@
 3. [ ] 安裝軟體包
 	* libdvdcss2
 
+## 安裝及設定各種 alternatives 圖形化介面前端程式
+* [ ] kalternatives
+* [ ] galternatives
+
+## 安裝軟體開發工具
+### 版本控制系統
+#### Git
+1. 安裝軟體
+	* 核心元件
+		* [ ] 安裝 git 軟體包
+	* 文件
+		* [ ] git-doc
+	* 圖形介面
+		* [ ] git-gui
+		* gitk revision tree visualizer
+			* [ ] gitk
+		* [ ] git-cola（改用手動建構安裝）
+2. 設定
+	* [ ] Patches/安裝軟體開發工具/版本控制系統/Git/修正中文字元無法正常在 git 畫面中顯示的問題/
+	* [ ] Patches/安裝軟體開發工具/版本控制系統/Git/HTTPS 協定的遠端版本倉庫維持一個小時已驗證狀態
+
+### 整合式開發環境<br />IDE
+
+## 安裝其他檔案系統支援
+### exFAT 檔案系統
+* [ ] fuse-exfat
