@@ -1,4 +1,5 @@
 # Vubuntu GNU/Linux 作業系統散佈版本－Ｖ字龍所使用的 GNU/Linux 作業系統<br />Vubuntu GNU/Linux Operating System Distribution - The GNU/Linux operating system that Vdragon uses
+![Vubuntu 20141031 釋出版本的畫面截圖](Resources/Pictures/Vubuntu_release_20141031_screenshot.jpg "Vubuntu 20141031 釋出版本的畫面截圖")
 
 ## 本專案的智慧財產授權條款<br />Intellectual property license of this project
 ### 本專案提供的內容
