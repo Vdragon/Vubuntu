@@ -1,4 +1,5 @@
 # Vubuntu 作業系統建構檢核表
+
 ## 本作品的智慧財產授權條款<br />Intellectual property license applied to this work
 除了另外聲明之內容以外，本作品之內容採用「創用 CC-<span class="important_warning" style="color: red">**BY**</span>-<span class="important_warning" style="color: red">**SA**</span> 3.0 台灣地區版本或其後版本」授權條款釋出供所有人使用。  
 ![「創用 CC-BY-SA 3.0 台灣地區版本或其後版本」授權條款圖示](https://cdn.rawgit.com/Vdragon/Vdragon_s_License_Templates/217eea4d6e13a5f72eddf1f1a3b22dbdee9e9639/Creative%20Commons/CC%20BY-SA/Resources/Creative%20Commons%20CC-BY-SA%20logo.svg)
@@ -186,6 +187,7 @@
 		6. [ ] 將 ~/.fbtermrc 同步到 /root 跟 /etc/skel
 		7. [ ] Patches/語言設定(Locale settings)/TTY 終端機中文支援/修正「安裝了 ucimf-chewing 但是新酷音輸入法還是叫不出來」的問題/
 		8. [ ] Patches/語言設定(Locale settings)/TTY 終端機中文支援/將 TTY1 的 getty 改為 fbterm/
+
 * 軟體管理系統設定
   Software Management System Settings
 	* [ ] 使用 <http://free.nchc.org.tw/ubuntu> Ubuntu 軟體來源鏡像站（速度快，相對預設的 tw.archive.ubuntu.com 穩定）
