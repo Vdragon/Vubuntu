@@ -1,0 +1,60 @@
+# rsync 排除規則
+## 排除臨時檔案目錄
+/tmp/*
+/var/tmp/*
+
+## 排除由 Linux 作業系統核心自動產生的偽檔案檔案系統
+/dev/*
+/proc/*
+/sys/*
+/run/*
+
+## 排除其他掛載之檔案系統
+/mnt/*
+/media/*
+
+## 排除系統快取目錄（因為有軟體設計不當預期該目錄底下一定要有東西因此預設不啟用）
+# /var/cache/*
+### APT 軟體包管理系統軟體包快取
+/var/cache/apt/archives/*.deb
+
+## 排除系統備份資料目錄
+/var/backups/*
+
+## 排除程式崩潰報告
+/var/crash/*
+
+## 排除被 rotate 的程式紀錄檔
+/var/log/**.*.gz
+/var/log/**.?
+/var/log/**.old
+
+## 排除使用者快取資料目錄
+/home/*/.cache/*
+
+## 排除縮圖快取目錄
+/home/*/.thumbnails
+
+## 排除使用者資源回收筒檔案
+/home/*/.local/share/Trash
+
+## 排除 GVFS 虛擬檔案系統
+/home/*/.gvfs/
+
+## 排除使用者個人檔案
+/home/*/下載/*
+/home/*/Downloads/*
+/home/*/文件/*
+/home/*/Documents/*
+/home/*/圖片/*
+/home/*/Pictures/*
+/home/*/影片/*
+/home/*/Video/*
+
+## 排除使用者個人檔案（Ｖ字龍 <Vdragon.Taiwan@gmail.com> 建議項目）
+/home/*/工作空間/*
+/home/*/Workspace/*
+/home/*/待匯入資料/*
+/home/*/軟體/*
+/home/*/Software/*
+/home/*/VirtualBox VMs/*

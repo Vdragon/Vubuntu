@@ -19,3 +19,6 @@
 [submodule "3rd_party_software/Swap_space_automounter"]
 	path = 3rd_party_software/Swap_space_automounter
 	url = https://github.com/Vdragon/Swap_space_automounter.git
+[submodule "3rd_party_software/Chroot_helper"]
+	path = 3rd_party_software/Chroot_helper
+	url = https://github.com/Vdragon/Chroot_helper.git
